@@ -13,3 +13,13 @@ I had some previous exposure to working at the command line and some of the Unix
 Important commands are knowing what directory you're in (pwd), listing the contents of a directory (ls), changing directory (cd), and viewing files (less/more). Manipulating files, like creating them (touch), copying them (cp), moving them (mv), removing them (rm), and creating (mkdir) and removing (rmdir) directories is also important. help or man is also super useful for figuring out what arguments a command can take.
 
 # 1.4 Forking and Cloning
+
+To create a new repository (repo), in GitHub, you can go to the plus icon (Create New...) and select New Repository. It will basically start out empty, and is yours to start from scratch.
+
+To create a fork of an existing repository, you can go to the repo in GitHub, and click Fork (there will also be a number showing how many times others have done the same thing). This will take you to your copy of that repository, with all the files already included. 
+
+After doing either of those things, to copy a repo to your local PC and do some work on it, you can clone it. Get the clone URL from the repository's page in GitHub, and then in your shell, type:
+
+git clone (paste URL)
+
+This will only work from somewhere that has internet access (in my case it didn't work from within the vagrant virtual machine), and might require you to log into your GitHub account. 
