@@ -1,0 +1,80 @@
+html {
+  background-color:  #ffffff;
+}
+* {
+    color: #000080;
+}
+a {
+    color:  #800080;
+}
+a:visited {
+    color:  #ff0000;
+}
+li {
+    color: initial;
+    font-size: .75em;
+    padding: .2em;
+}
+#left-links {
+    float: left;
+    border-bottom: 0;
+}
+#right-links {
+    float: right;
+    border-bottom: 0;
+}
+#geico {
+    clear: both;
+    text-align: center;
+    font-size: .8em;
+}
+div {
+    border-bottom: 1px solid black;
+}
+.header {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.address {
+    display: block;
+}
+.initials {
+    font-size: 2em;
+}
+.newline {
+    display: block;
+}
+#geico p {
+    margin-top: 0;
+}
+#clear {
+    clear: both;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+In terms of how to do it, when you're messing around in jsFiddle, the CSS pane and the HTML pane are linked automatically. But to do it yourself, you can put a <link/> tag, with attributes rel="stylesheet" type="text/css" href="(your css file)". It's also important to keep in mind that style attributes still in the HTML will take precedence over what's in the CSS file.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+We had to add more tags on the HTML side to have something to latch onto in the CSS code. For instance for the places where we had a string of text that was meant to have a linebreak in it, but we weren't supposed to use HTML for that, we had to wrap at least part of the text in a <span> tag, and give it an ID or class, to have that control over it in CSS.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+font-weight
+font-size
+color
+background-color
+text-align
+And we had to get pretty granular with the <span> tags to enlarge just the B and H initials.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+My pair had some classes and IDs already in place in the HTML from last week. But whe adding things, if we were going to do the same thing to more than one section or block, then it would be better to use a class, otherwise we added ids.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I think we were a little taken aback my the actual HTML of the Berkshire page, because creating the two column list was done using a table, which involves a lot of extra tags for something that in the end isn't meant to actually look like a table. There were also some sloppy things like using empty paragraphs (<p></p>) to add space. I think our combination of HTML and CSS is probably shorter overall, and easier to work with.
+*/
