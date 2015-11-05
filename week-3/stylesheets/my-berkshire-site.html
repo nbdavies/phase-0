@@ -1,58 +1,55 @@
 <!DOCTYPE html>
-<!-- 
-- What was it like to translate your previous learning with HTML into an actual site?
-	It was fun and went pretty smoothly, though the end result quickly becomes not too pretty to look at.
-- How was it researching and using semantic HTML5 elements?
-	We may not have gotten as granular as possible with semantic tags, like wrapping random text in p-tags, or deciding what to call the last-modified-date stuff, etc.
-- How did you do at keeping to best practices (i.e. no formatting in the HTML)
-	We scratched the surface a little, and figured out that creating the two-columned list would have really been a table where each bullet would be in its own cell of the table. That was going to be a real pain, and we saw that it could also be done using CSS.
-- What seems good and bad about HTML?
-	It's pretty straightforward, but the resulting code isn't too pretty to look at. 
-- What tricks do you have for remembering how to write HTML?
-	Getting the structure in place first, and adding the individual links and stuff. Also, writing the closing tags for each pair before you start figuring out the attributes.
--->
 <html>
-<head>
-    <title>BERKSHIRE HATHAWAY INC.</title>
-</head>
-<body>
-<h1>BERKSHIRE HATHAWAY INC.</h1>
-3555 Farnam Street
-Omaha, NE 68131
-Official Home Page 
-<hr>
-<ul>
-	<li><a href="http://www.berkshirehathaway.com/message.html">A Message From Warren E. Buffett</a></li>
-	<li><a href="http://www.berkshirehathaway.com/news/2015news.html">News Releases</a> 
-	Updated August 10, 2015</li>
-	<li><a href="http://www.berkshirehathaway.com/reports.html">Annual &amp; Interim Reports</a>
-	Updated August 7, 2015</li>
-	<li><a href="http://www.berkshirehathaway.com/letters/letters.html">Warren Buffett's Letters to Berkshire Shareholders</a>
-	Updated February 28, 2015</li>
-	<li><a href="http://www.berkshirehathaway.com/SpecialLetters/WEBCTMLtr.html">Special Letters From Warren &amp; Charlie RE:Past, Present and Future</a></li>
-	<li><a href="http://www.berkshirehathaway.com/wesco/WescoHome.html">Charlie Munger's Letters to Wesco Shareholders</a></li>
-	<li><a href="http://www.sec.gov/cgi-bin/browse-edgar?company=berkshire+hathaway&match=&CIK=&filenum=&State=&Country=&SIC=&owner=exclude&Find=Find+Companies&action=getcompany">Link to SEC Filings</a></li>
-	<li><a href="http://www.berkshirehathaway.com/sharehold.html">Annual Meeting Information</a></li>
+	<head>
+		<title>Berkshire Hathaway</title>
+		<link rel="stylesheet" type="text/css" href="my-berkshire-stylesheet.css">
+	</head>
+	<body>
+		<div class="header">
+            <h1><span class="initials">B</span>erkshire <span class="initials">H</span>athaway</h1>
+			<p><span class="address">3555 Farnam Street</span>Omaha, NE 68131</p>
+			<h2>Official Home Page</h2>
+		</div>
+		<!-- <div class="content"> -->
+			<div id="left-links">
+				<ul>
+					<li><a href="#">A Message From Warren E. Buffett</a></li>
+					<li><a href="#">News Releases</a><br>Updated July 1, 2014</li>
+					<li><a href="#">Annual & Interim Reports</a><br>Updated May 2, 2014</li>
+					<li><a href="#">Warren Buffett's Letters to Berkshire Shareholders</a><br>Updated March 1, 2014</li>
+					<li><a href="#">Link to SEC Filings</a></li>
+					<li><a href="#">Charlie Munger's Letters to Wesco Shareholders</a></li>
+					<li><a href="#">Corporate Governance</a></li>
+				</ul>
+				</div>
+			<div id="right-links">
+				<ul>
+					<li><a href="#">News Releases</a><br>Updated August 10,2015</li>
+					<li><a href="#">Warren Buffett's Letters to Wesco Shareholders</a><br>Updated February 28,2015</li>
+					<li><a href="#">Charlie Munger's Letters to Wesco Shareholders</a></li>
+					<li><a href="#">Annual Meeting Information</a></li>
+					<li><a href="#">Celebrating 50 years of a Profitable Partnership</a><br>(A commemorative book first sold at the 2015 Annual Meeting and now for sale on eBay.)</li>
+					<li><a href="#">Comparative Rights and Relative Prices of Class A and B Stock</a></li>
+					<li><a href="#">Berkshire Activewear</a></li>
+				</ul>
+			</div>
+        <div style="clear:both">
+		</div>
 
-	<li><a href="http://www.berkshirehathaway.com/subs/sublinks.html">Links to Berkshire Subsidiary Companies</a></li> 
+		<div id="geico">
+			<a href="#"><img src="../imgs/geicoimg.gif" alt="Geico Logo"></a>
+            <p> 
+			FOR A FREE CAR INSURANCE RATE QUOTE THAT COULD SAVE YOU SUBSTANTIAL MONEY <span class="newline"><a href="#">http://www.geico.com</a> OR CALL 1-888-395-6349, 24 HOURS A DAY</span></p>
+		</div>
 
-	<li><a href="http://www.ebay.com/itm/Berkshire-Hathaway-Inc-Celebrating-50-Years-of-a-Profitable-Partnership-/181784599961?pt=LH_DefaultDomain_0&hash=item2a5334dd99">Celebrating 50 Years of a Profitable Partnership</a>
-(A commemorative book first sold at the 2015 Annual Meeting and now for sale on eBay.)</li>
-	<li><a href="http://www.berkshirehathaway.com/govern/govern.html">Corporate Governance</a></li>
+		<div id="comments">
+			<p>If you have any comments about our WEB page, you can either write us at the address shown above or e-mail us at 
+			<a href="mailto:berkshire@berkshirehathaway.com" target="_top">berkshire@berkshirehathaway.com</a>. However, due to the limited number of personnel in our corporate office, we are unable to provide a direct response.</p>
+		</div>
 
-	<li><a href="http://www.berkshirehathaway.com/compab.pdf">Comparative Rights and Relative Prices of Class A and B Stock</a></li>
-    <li><a href="http://www.berkshirehathaway.com/ownman.pdf">Owner's Manual</a></li>
-    <li><a href="http://www.berkshirewear.com/">Berkshire Activewear</a></li>
-<li><a href="http://www.berkshirehathaway.com/donate/webdonat.html">Letters from Warren E. Buffett Regarding Pledges to Make Gifts of Berkshire Stock</a></li>
-</ul>
-    <hr>
-<a href="www.geico.com"><img src = "imgs/geicoimg.gif" alt="GEICO LOGO"></a>
-FOR A FREE CAR INSURANCE RATE QUOTE THAT COULD SAVE YOU SUBSTANTIAL MONEY
-    <a href="http://www.geico.com">WWW.GEICO.COM</a> OR CALL 1-888-395-6349, 24 HOURS A DAY
-<hr>
-If you have any comments about our WEB page, you can either write us at the address shown above or e-mail us at <a href="mailto:berkshire@berkshirehathaway.com">berkshire@berkshirehathaway.com</a>. However, due to the limited number of personnel in our corporate office, we are unable to provide a direct response.
-<hr>
-    <a href="http://www.berkshirehathaway.com/disclaimer.html">Legal Disclaimer</a><br>
-Copyright © 1978-2015 Berkshire Hathaway Inc.
-</body>
+		<div id="footer">
+			<a href="#">Legal Disclaimer</a>
+			<p>Copyright &#169; 1978-2014 <span>Berkshire Hathaway Inc.</span></p>
+		</div>
+	</body>
 </html>
