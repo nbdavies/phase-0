@@ -1,12 +1,12 @@
-![Exercise 1](/imgs/challenge1.png)
-![Exercise 2](/imgs/challenge2.png)
-![Exercise 3](/imgs/challenge3.png)
-![Exercise 4](/imgs/challenge4.png)
-![Exercise 5](/imgs/challenge5.png)
-![Exercise 6](/imgs/challenge6.png)
-![Exercise 7](/imgs/challenge7.png)
-![Exercise 8](/imgs/challenge8.png)
-![Exercise 9](/imgs/challenge9.png)
+![Exercise 1](imgs/challenge1.png)
+![Exercise 2](imgs/challenge2.png)
+![Exercise 3](imgs/challenge3.png)
+![Exercise 4](imgs/challenge4.png)
+![Exercise 5](imgs/challenge5.png)
+![Exercise 6](imgs/challenge6.png)
+![Exercise 7](imgs/challenge7.png)
+![Exercise 8](imgs/challenge8.png)
+![Exercise 9](imgs/challenge9.png)
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
 
