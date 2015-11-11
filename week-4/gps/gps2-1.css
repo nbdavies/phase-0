@@ -1,3 +1,63 @@
+header{
+    position: static; 
+    margin-top:0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+header h1 {
+    font-weight: bold;
+    padding-left: 15px;
+}
+header h2 {
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+header p {
+    background-color: gray;
+    width: 100%;
+    padding: 15px;
+}
+.column-1{
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+    border: 1px black solid;
+    border-radius: 25px;
+}
+
+footer{
+  position: static;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: blue;
+  clear: both;
+ }
 * {
-	background-color: green;
+    font-family: sans-serif;
+}
+code {
+    font-weight: bold;
+    font-family: monospace;
+}
+summary {
+    background-color: #CCCCCC;
+    display: block;
+}
+.column-2 {
+    width: 45%;
+    float: right;
+}
+
+a:hover {
+    
+}
+a:active {
+    
+}
+a:visited {
+    
+}
+a:link {
+    
 }
