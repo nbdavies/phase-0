@@ -99,3 +99,22 @@ add_item(grocery_list,"Ice Cream",4)
 remove_item(grocery_list,"Lemonade")
 update_quantity(grocery_list,"Ice Cream",1)
 print_list(grocery_list)
+
+# Reflection
+#What did you learn about pseudocode from working on this challenge?
+# In this particular case, creating the initial solution directly off of the pseudocode led us in a particular direction in terms of the method return value that wasn't as streamlined as what we ultimately came up with. So it's worth keeping in mind that you can also have a destructive method, where you don't necessarily care about the return value.
+
+#What are the tradeoffs of using Arrays and Hashes for this challenge?
+# We implicitly use an array to get from a string to a hash. But overall a hash was better so that we could store the items and their quantity. An array of arrays might have been another option, but it seemed messier to add/update/remove items that way.
+
+#What does a method return?
+# A method returns either what you tell it to return, or otherwise the last expression evaluated.
+
+#What kind of things can you pass into methods as arguments?
+# Hashes, strings, integers, arrays, you name it. 
+
+#How can you pass information between methods?
+# In this case our "driver code" was where the hash was named and persisted, though it was passed into various methods from there.
+
+#What concepts were solidified in this challenge, and what concepts are still confusing?
+# I think this helped solidy concepts about destructive methods, method return values, and how hashes work.
