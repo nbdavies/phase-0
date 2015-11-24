@@ -92,16 +92,9 @@ end
 #
 
 
-# Release 1: Identify and describe the Ruby method you implemented. Teach your
-# accountability group how to use the methods.
-#
-#
-#
-
-
 # Release 3: Reflect!
 # What did you learn about researching and explaining your research to others?
-#
+# 
 #
 #
 #
